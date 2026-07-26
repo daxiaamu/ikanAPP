@@ -28,16 +28,48 @@ jobs:
           RELEASE_URL: ${{ github.event.release.html_url }}
           ASSETS_JSON: ${{ toJson(github.event.release.assets) }}
         run: |
+          set -euo pipefail
           APK_URL="$(jq -r '[.[] | select(.name | endswith(".apk"))][0].browser_download_url // ""' <<< "$ASSETS_JSON")"
+          test -n "$APK_URL" || {
+            echo "::error::Release does not contain an APK asset"
+            exit 1
+          }
+
+          curl --fail --location --retry 3 --output release.apk "$APK_URL"
+          BUILD_TOOLS="$(find "$ANDROID_HOME/build-tools" -mindepth 1 -maxdepth 1 -type d | sort -V | tail -1)"
+          VERSION_CODE="$("$BUILD_TOOLS/aapt" dump badging release.apk | sed -n "s/.*versionCode='\([0-9]*\)'.*/\1/p" | head -1)"
+          test -n "$VERSION_CODE" || {
+            echo "::error::Unable to read versionCode from APK"
+            exit 1
+          }
+
+          MAX_FORCED_VERSION_CODE="$(jq -r '.maxForcedVersionCode // 0' latest-release.json)"
+          if (( MAX_FORCED_VERSION_CODE < 0 || MAX_FORCED_VERSION_CODE >= VERSION_CODE )); then
+            echo "::error::maxForcedVersionCode must be between 0 and versionCode - 1"
+            exit 1
+          fi
+
           jq -n \
             --arg tag "$TAG" \
+            --argjson versionCode "$VERSION_CODE" \
             --arg versionName "${TAG#v}" \
             --arg name "$NAME" \
             --arg notes "$NOTES" \
             --arg publishedAt "$PUBLISHED_AT" \
             --arg releaseUrl "$RELEASE_URL" \
             --arg apkUrl "$APK_URL" \
-            '{tag: $tag, versionName: $versionName, name: $name, notes: $notes, publishedAt: $publishedAt, releaseUrl: $releaseUrl, apkUrl: $apkUrl}' \
+            --argjson maxForcedVersionCode "$MAX_FORCED_VERSION_CODE" \
+            '{
+              tag: $tag,
+              versionCode: $versionCode,
+              versionName: $versionName,
+              name: $name,
+              notes: $notes,
+              publishedAt: $publishedAt,
+              releaseUrl: $releaseUrl,
+              apkUrl: $apkUrl,
+              maxForcedVersionCode: $maxForcedVersionCode
+            }' \
             > latest-release.json
 
       - name: Commit update
