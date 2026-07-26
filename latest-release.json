@@ -1,11 +1,11 @@
 {
-  "tag": "v1.10.3",
-  "versionCode": 38,
-  "versionName": "1.10.3",
-  "name": "爱看 1.10.3",
-  "notes": "- 优化应用更新安装流程，下载完成后将直接进入系统安装；首次授权后可继续使用已下载的安装包，无需重新下载。\n- 改进小窗播放控制，视频缓冲时的播放按钮状态更加准确。\n- 优化详情播放器下滑进入小窗时的跟手与过渡表现。\n- 改进桌面快捷方式进入播放及小窗状态下的使用稳定性。\n",
-  "publishedAt": "2026-07-26T11:28:54Z",
-  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.3",
-  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.3/ikandroid-1.10.3.apk",
+  "tag": "v1.10.4",
+  "versionCode": 39,
+  "versionName": "1.10.4",
+  "name": "爱看 1.10.4",
+  "notes": "- 优化分类翻页体验，切换页面后自动回到内容开头。\n- 新增下一页内容预加载，翻页后的文字内容可以更快呈现。\n- 完善应用更新检查与必要更新提示。\n- 提升页面加载稳定性与整体使用体验。",
+  "publishedAt": "2026-07-26T13:11:41Z",
+  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.4",
+  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.4/ikandroid-1.10.4.apk",
   "maxForcedVersionCode": 0
 }
