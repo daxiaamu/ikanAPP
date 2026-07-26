@@ -1,9 +1,9 @@
 {
-  "tag": "v1.8.0",
-  "versionName": "1.8.0",
-  "name": "爱看 1.8.0",
-  "notes": "- 搜索结果返回时恢复此前浏览页面，不再意外退出应用。\n- 优化手机和平板播放器的进度条与时间布局，操作空间更加合理。\n- 全屏切换加入手势惯性，拖动和甩动的衔接更加自然。\n- 改善局域网投屏设备的发现兼容性。\n",
-  "publishedAt": "2026-07-25T23:46:19Z",
-  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.8.0",
-  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.8.0/ikandroid-1.8.0.apk"
+  "tag": "v1.10.3",
+  "versionName": "1.10.3",
+  "name": "爱看 1.10.3",
+  "notes": "- 优化应用更新安装流程，下载完成后将直接进入系统安装；首次授权后可继续使用已下载的安装包，无需重新下载。\n- 改进小窗播放控制，视频缓冲时的播放按钮状态更加准确。\n- 优化详情播放器下滑进入小窗时的跟手与过渡表现。\n- 改进桌面快捷方式进入播放及小窗状态下的使用稳定性。\n",
+  "publishedAt": "2026-07-26T11:28:54Z",
+  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.3",
+  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.3/ikandroid-1.10.3.apk"
 }
