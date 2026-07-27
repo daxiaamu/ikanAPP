@@ -1,11 +1,11 @@
 {
-  "tag": "v1.10.5",
-  "versionCode": 40,
-  "versionName": "1.10.5",
-  "name": "爱看 1.10.5",
-  "notes": "## 更新内容\n\n- 播放器窗口现已支持双击暂停或继续播放。\n- 优化搜索交互，搜索历史与内容展示更加清晰，并减少输入时误触。\n- 优化缓存通知跳转及已下载更新包的复用与清理。\n- 改善网络波动时的内容加载稳定性与分类翻页体验。",
-  "publishedAt": "2026-07-26T17:50:58Z",
-  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.5",
-  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.5/ikandroid-1.10.5.apk",
+  "tag": "v1.10.6",
+  "versionCode": 41,
+  "versionName": "1.10.6",
+  "name": "爱看 1.10.6",
+  "notes": "## 更新内容\n\n- 优化离开播放页面时的资源处理，避免正在缓冲的内容稍后在后台继续播放。\n- 调整启动画面的展示节奏。\n- 完善应用更新机制，为后续版本提供强制更新兼容能力。",
+  "publishedAt": "2026-07-27T21:36:41Z",
+  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.6",
+  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.6/ikandroid-1.10.6.apk",
   "maxForcedVersionCode": 0
 }
