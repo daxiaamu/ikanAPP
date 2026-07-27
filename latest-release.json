@@ -3,7 +3,7 @@
   "versionCode": 41,
   "versionName": "1.10.6",
   "name": "爱看 1.10.6",
-  "notes": "## 更新内容\n\n- 优化离开播放页面时的资源处理，避免正在缓冲的内容稍后在后台继续播放。\n- 调整启动画面的展示节奏。\n- 完善应用更新机制，为后续版本提供强制更新兼容能力。",
+  "notes": "## 更新内容\r\n\r\n- 优化离开播放页面时的资源处理，避免正在缓冲的内容稍后在后台继续播放。\r\n- 调整启动画面的展示节奏。\r\n- 完善应用更新机制",
   "publishedAt": "2026-07-27T21:36:41Z",
   "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.6",
   "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.6/ikandroid-1.10.6.apk",
