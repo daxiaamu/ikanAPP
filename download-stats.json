@@ -1,0 +1,19 @@
+{
+  "totalDownloads": 28,
+  "releases": [
+    {
+      "tag": "v1.10.6",
+      "name": "爱看 1.10.6",
+      "downloads": 28
+    }
+  ],
+  "archivedDownloadsByRelease": {},
+  "trackedAssets": [
+    {
+      "id": "492047319",
+      "tag": "v1.10.6",
+      "name": "ikandroid-1.10.6.apk",
+      "downloadCount": 28
+    }
+  ]
+}
