@@ -3,8 +3,8 @@
   "versionCode": 42,
   "versionName": "1.10.7",
   "name": "爱看 1.10.7",
-  "notes": "## 更新内容\r\n\r\n- 增加可选的预测性返回动画，默认关闭，可在设置中开启。\r\n- 优化搜索界面及搜索结果返回体验。\r\n- 修复部分搜索结果翻页后返回异常的问题。\r\n- 优化 Android 12 上的启动体验。\r\n- 更新日志现可显示并打开网页链接\r\n- 统一优化弹窗背景层次，提高内容辨识度。\r\n",
-  "publishedAt": "2026-07-28T23:13:26Z",
+  "notes": "## 更新内容\n\n- 增加可选的预测性返回动画，默认关闭，可在设置中开启。\n- 优化搜索界面及搜索结果返回体验。\n- 修复部分搜索结果翻页后返回异常的问题。\n- 优化 Android 12 上的启动体验。\n- 更新日志现已支持显示并打开网页链接，为后续版本迁移做好准备。\n- 启动后可在后台发现新版本；普通更新可忽略至下一版发布，设置页会保留更新红点。\n- 统一优化弹窗背景层次，提高内容辨识度。\n",
+  "publishedAt": "2026-07-28T23:20:08Z",
   "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.7",
   "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.7/ikandroid-1.10.7.apk",
   "maxForcedVersionCode": 0
