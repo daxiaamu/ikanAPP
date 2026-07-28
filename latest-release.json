@@ -1,11 +1,11 @@
 {
-  "tag": "v1.10.6",
-  "versionCode": 41,
-  "versionName": "1.10.6",
-  "name": "爱看 1.10.6",
-  "notes": "## 更新内容\r\n\r\n- 优化离开播放页面时的资源处理，避免正在缓冲的内容稍后在后台继续播放。\r\n- 调整启动画面的展示节奏。\r\n- 完善应用更新机制",
-  "publishedAt": "2026-07-27T21:36:41Z",
-  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.6",
-  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.6/ikandroid-1.10.6.apk",
+  "tag": "v1.10.7",
+  "versionCode": 42,
+  "versionName": "1.10.7",
+  "name": "爱看 1.10.7",
+  "notes": "## 重要安装说明\n\n本版开始更换为长期正式签名，无法直接覆盖旧签名版本。请先将新版 APK 下载到设备的 Download 目录，再卸载旧版并安装新版。卸载旧版会清除原有收藏、播放历史和缓存。\n\n## 更新内容\n\n- 增加可选的预测性返回动画，默认关闭，可在设置中开启。\n- 优化搜索界面及搜索结果返回体验。\n- 修复部分搜索结果翻页后返回异常的问题。\n- 优化 Android 12 上的启动体验。\n- 完善版本与更新安全校验。\n",
+  "publishedAt": "2026-07-28T22:54:05Z",
+  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.7",
+  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.7/ikandroid-1.10.7.apk",
   "maxForcedVersionCode": 0
 }
