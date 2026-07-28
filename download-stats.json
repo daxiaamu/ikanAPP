@@ -7,13 +7,15 @@
       "downloads": 28
     }
   ],
-  "archivedDownloadsByRelease": {},
+  "archivedDownloadsByRelease": {
+    "v1.10.6": 28
+  },
   "trackedAssets": [
     {
-      "id": "492047319",
+      "id": "492133472",
       "tag": "v1.10.6",
       "name": "ikandroid-1.10.6.apk",
-      "downloadCount": 28
+      "downloadCount": 0
     }
   ]
 }
