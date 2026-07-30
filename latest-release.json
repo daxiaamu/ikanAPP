@@ -1,11 +1,11 @@
 {
-  "tag": "v1.10.8",
-  "versionCode": 43,
-  "versionName": "1.10.8",
-  "name": "爱看 1.10.8",
-  "notes": "## 更新内容\n\n- 新增影片分享，可选择是否携带当前播放进度，跨设备打开后继续观看。\n- 分享接续会优先恢复原线路与原集；线路发生变化时可自动匹配同一集。\n- 新增“自动播放下一集”开关，并统一控制下一集预加载，默认关闭。\n- 优化通过网页链接打开影片时的海报加载与续播体验。\n",
-  "publishedAt": "2026-07-30T18:53:35Z",
-  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.8",
-  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.8/ikandroid-1.10.8.apk",
+  "tag": "v1.10.9",
+  "versionCode": 44,
+  "versionName": "1.10.9",
+  "name": "爱看 1.10.9",
+  "notes": "## 更新内容\n\n- 新增影片分享，可选择是否携带当前播放进度，跨设备打开后继续观看。\n- 分享接续会优先恢复原线路与原集；线路发生变化时可自动匹配同一集。\n- 新增“自动播放下一集”开关，并统一控制下一集预加载，默认关闭。\n- 优化通过网页链接打开影片时的海报加载与续播体验。\n- 修复启动时能够发现新版本、但设置页手动检查可能误判为最新版的问题。\n- 优化多个更新源之间的同步判断，降低镜像缓存延迟造成的影响。\n",
+  "publishedAt": "2026-07-30T19:04:01Z",
+  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.9",
+  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.9/ikandroid-1.10.9.apk",
   "maxForcedVersionCode": 0
 }
