@@ -1,11 +1,11 @@
 {
-  "tag": "v1.10.9",
-  "versionCode": 44,
-  "versionName": "1.10.9",
-  "name": "爱看 1.10.9",
-  "notes": "## 更新内容\n\n- 新增影片分享，可选择是否携带当前播放进度，跨设备打开后继续观看。\n- 分享接续会优先恢复原线路与原集；线路发生变化时可自动匹配同一集。\n- 新增“自动播放下一集”开关，并统一控制下一集预加载，默认关闭。\n- 优化通过网页链接打开影片时的海报加载与续播体验。\n- 修复启动时能够发现新版本、但设置页手动检查可能误判为最新版的问题。\n- 优化多个更新源之间的同步判断，降低镜像缓存延迟造成的影响。\n",
-  "publishedAt": "2026-07-30T19:04:01Z",
-  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.9",
-  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.9/ikandroid-1.10.9.apk",
+  "tag": "v1.10.10",
+  "versionCode": 45,
+  "versionName": "1.10.10",
+  "name": "爱看 1.10.10",
+  "notes": "## 更新内容\n\n- 全屏播放新增线路与选集入口，可快速返回当前线路并定位正在播放的集数。\n- 全屏控制栏新增下一集操作，最后一集状态更加清晰。\n- 全屏标题显示当前集数，长剧集观看和切换更直观。\n- 播放倍速新增 3.0 倍，并优化倍速面板的尺寸、间距和滚动体验。\n- 优化手机与平板的全屏进出动画、按钮布局和触控体验。\n- 优化首页顶部布局及平板搜索界面。\n- 优化影片分享、视频提示及相关交互体验。\n- 新增简体中文、繁体中文、英语、日语、韩语和阿拉伯语界面支持。",
+  "publishedAt": "2026-08-02T18:49:31Z",
+  "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.10",
+  "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.10/ikandroid-1.10.10.apk",
   "maxForcedVersionCode": 0
 }
