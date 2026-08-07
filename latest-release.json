@@ -3,7 +3,7 @@
   "versionCode": 46,
   "versionName": "1.10.11",
   "name": "爱看 1.10.11",
-  "notes": "## 更新内容\n\n- 修复部分安装包冷启动时启动页未正常显示的问题。\n- 优化应用启动衔接与稳定性。",
+  "notes": "## 更新内容\n\n- 修复部分安装包冷启动时启动页未正常显示的问题。\n- 修复自动检查与手动检查同时触发时重复提示的问题。\n- 优化应用启动衔接与稳定性。\n",
   "publishedAt": "2026-08-07T18:28:44Z",
   "releaseUrl": "https://github.com/daxiaamu/ikandroid/releases/tag/v1.10.11",
   "apkUrl": "https://github.com/daxiaamu/ikandroid/releases/download/v1.10.11/ikandroid-1.10.11.apk",
